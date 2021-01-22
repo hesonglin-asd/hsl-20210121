@@ -1,0 +1,9 @@
+###### 允许 Spring Boot 项目对 Bean 的 id 进行重写
+spring:
+  main:
+    allow-bean-definition-overriding: true
+###### 配置 Eureka Client 连接注册中心地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:12345/eureka/
